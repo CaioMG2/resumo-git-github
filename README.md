@@ -121,3 +121,100 @@ $ git mv <nome_antigo> <nome_novo>
 
 Mover arquivo:
 $ git mv <arquivo> <diretorio/>
+it Resumo
+
+Stashs:
+
+Salvar as modificações atuais para prosseguir com outra abordagem de solução mas não perder o código:
+git stash
+
+Verificar stashs criadas:
+git stash list
+
+Recuperar stash criada:
+git stash apply <nome>
+
+Limpar totalmente as stashs de uma branch:
+git stash clear
+
+Remover uma stash específica:
+git stash drop <nome>
+
+Tags
+Tags são utilizadas como um checkpoint de um branch.
+
+Criar nova tag:
+git tag <nome>
+
+Criar tag com mensagem:
+git tag -a <nome> -m "mensagem"
+
+Listar tags:
+git tag
+
+Ver tag específica:
+git show <nome da tag>
+
+Trocar de tag:
+git checkout <nome da tag>
+
+Enviar uma tag para o repositório:
+git push origin <nome da tag>
+ou para enviar mais tags:
+git push origin --tags
+
+Git Fetch
+Atualiza todas as branches e tags.
+
+Submódulo
+Maneira de trabalhar com dois ou mais projetos em um único repositório.
+Adicionar submódulo:
+git submodule add <repo>
+
+Verificar submódulos:
+git submodule
+
+Atualizar um submódulo:
+Primeiro, commitar as mudanças;
+Enviar o repositório do submódulo:
+git push --recurse-submodules=on-demand
+
+Git Diff
+Mostra a diferença entre branches ou arquivos.
+
+Comando git checkout -b
+Cria uma nova branch e muda para ela.
+
+Git Shortlog
+Log resumido do projeto, separado por autores.
+
+Otimização
+
+Limpar arquivos untracked:
+git clean
+
+Git GC (Garbage Collect)
+Identifica e exclui arquivos desnecessários.
+
+Git Fsck
+Verifica a integridade de arquivos no repositório.
+
+Git Reflog
+Mapeia seus passos no repositório, incluindo mudanças de branches.
+
+Git Archive
+Transforma um repositório em um arquivo compactado:
+git archive --format zip -o output.zip master
+
+***GitHub***
+
+Verificar licença e código-fonte.
+
+Aba Issue:
+Criar tarefas ou relatar bugs, usar Markdown no texto.
+
+Aba Pull Request:
+Colaboradores enviam código para resolver issues ou adicionar funcionalidades.
+Código é revisado antes de ser adicionado à branch principal.
+Pull requests vêm de branches separados e são revisados antes da integração.
+
