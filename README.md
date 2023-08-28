@@ -221,3 +221,76 @@ Colaboradores enviam código para resolver issues ou adicionar funcionalidades.
 Código é revisado antes de ser adicionado à branch principal.
 Pull requests vêm de branches separados e são revisados antes da integração.
 
+GitHub Recursos
+
+Abas
+
+1. **Actions:**
+   - Criar automações de deploy com integração a outros serviços.
+   - Incluindo CI (Continuous Integration) e CD (Continuous Development).
+
+2. **Projects:**
+   - Criar projetos e utilizar um quadro de tarefas (Kanban).
+   - Organizar o time com notas que se tornam issues.
+   - Estrutura: Backlog > Retorno de Qualidade > Desenvolvimento > Teste > Finalizadas.
+
+3. **Wiki:**
+   - Criar documentação extensa para o projeto.
+   - Descrever funcionalidades, bugs conhecidos, etc.
+   - Repositório de conhecimento sobre o projeto.
+
+4. **Insights:**
+   - Informações detalhadas do projeto:
+     contribuidores, commits, forks, etc.
+   - Importante para entender a evolução do projeto.
+
+5. **Settings:**
+   - Acesso a diversas configurações do projeto.
+   - Alterar nome dos repositórios, adicionar/remover features.
+   - Gerenciar colaboradores e repositórios.
+
+Gist
+Pequenos blocos de código hospedados no GitHub.
+Armazenar soluções para problemas que não devem ser perdidas.
+Links compartilháveis, funcionando como repositórios.
+
+GitHub Uso
+
+- **Star:**
+   - Marcar projetos que gostou.
+
+- **Fork:**
+   - Copiar projetos para repositório próprio.
+
+GitHub oferece uma variedade de recursos para colaboração, automação e gerenciamento de projetos.
+
+Markdown no GitHub
+
+Markdown é uma forma de adicionar estilo a textos na web.
+O arquivo README.md aceita markdown.
+Isso proporciona uma experiência melhor ao usuário em suas documentações.
+
+Cabeçalho:
+Os cabeçalhos são determinados pelo símbolo '#'.
+Similar aos headings do HTML:
+# é equivalente a h1, ## é equivalente a h2, e assim por diante.
+
+Ênfase no Texto:
+- Negrito: **texto**
+- Itálico: *texto*
+
+Listas:
+- Lista não ordenada: * item
+- Lista ordenada: 1. item
+
+Imagem:
+Para inserir uma imagem: ![texto](link da imagem)
+A imagem pode estar no repositório ou em um link externo.
+
+Link:
+Para inserir um link: [texto do link](link)
+
+No próprio GitHub, você pode inserir código usando a sintaxe:
+\```código\```
+
+
