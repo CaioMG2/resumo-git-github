@@ -238,7 +238,7 @@ Para inserir uma imagem: ![texto](link da imagem). A imagem pode estar no reposi
 
 **Link:**
 
-Para inserir um link: "[texto do link](link)."
+Para inserir um link: "[texto do link]+(link)."
 
 No próprio GitHub, você pode inserir código usando a sintaxe: \```código\```
 
